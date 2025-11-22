@@ -12,7 +12,7 @@ const seedDatabase = async () => {
     await sequelize.authenticate();
     console.log('Database connection has been established successfully.');
 
-    const adminEmail = 'admin@roxiler.com';
+    const adminEmail = 'admin@gmail.com';
     const existingAdmin = await User.findOne({ where: { email: adminEmail } });
 
     if (existingAdmin) {

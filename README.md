@@ -54,5 +54,5 @@ To help with development and testing, the following scripts are available in the
 
 *   **`npm run db:seed`**: This command will populate your database with essential initial data, including a default administrator user. This is crucial for setting up a testing environment.
     *   **Default Admin Credentials:**
-        *   **Email:** `admin@roxiler.com`
+        *   **Email:** `admin@gmail.com`
         *   **Password:** `AdminPassword1!`
